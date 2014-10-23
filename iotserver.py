@@ -114,5 +114,5 @@ class CenterServer(tcpserver.TCPServer):
 server = CenterServer()
 #pdb.set_trace()
 server.listen(8777)
-logger.info('starting server')
+logger.info('starting server...')
 ioloop.IOLoop.instance().start()
